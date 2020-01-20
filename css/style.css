@@ -10,8 +10,15 @@ header {
     margin-bottom: 10px;
 }
 .menu {
-    width: 30vw;
+    width: 32vw;
     height: 240px;
     background-color: pink;
     float: left;
+}
+.centrale {
+    width: 65vw;
+    height: 320px;
+    background-color: blue;
+    margin-left: 10px;
+    float: right;
 }
