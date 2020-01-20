@@ -10,17 +10,17 @@ header {
     margin-bottom: 10px;
 }
 .menu {
-    width: 32vw;
+    width: 20vw;
     height: 240px;
     background-color: pink;
     float: left;
 }
 .centrale {
-    width: 65vw;
+    width: 55vw;
     height: 320px;
     background-color: blue;
     margin-left: 10px;
-    float: right;
+    float: left;
 }
 footer {
     width: 100vw;
@@ -28,4 +28,10 @@ footer {
     background-color: pink;
     position: absolute; bottom: 0;
     margin-bottom: 10px;
+}
+.finestra {
+    width: 20vw;
+    height: 240px;
+    background-color: pink;
+    float: right;
 }
