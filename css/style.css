@@ -22,3 +22,10 @@ header {
     margin-left: 10px;
     float: right;
 }
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: pink;
+    position: absolute; bottom: 0;
+    margin-bottom: 10px;
+}
