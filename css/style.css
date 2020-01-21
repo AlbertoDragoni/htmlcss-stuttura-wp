@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+header {
+    height: 200px;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+.row {
+    height: 500px;
+    background-color: lightgrey;
+}
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: mediumorchid;
+    float: left;
+}
+main {
+    height: 100%;
+    width: 75%;
+    background-color: purple;
+}
