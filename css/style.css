@@ -3,35 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    width: 100vw;
-    height: 180px;
-    background-color: yellow;
-    margin-bottom: 10px;
-}
-.menu {
-    width: 20vw;
-    height: 240px;
-    background-color: pink;
-    float: left;
-}
-.centrale {
-    width: 55vw;
-    height: 320px;
-    background-color: blue;
-    margin-left: 10px;
-    float: left;
-}
-footer {
-    width: 100vw;
-    height: 50px;
-    background-color: pink;
-    position: absolute; bottom: 0;
-    margin-bottom: 10px;
-}
-.finestra {
-    width: 22vw;
-    height: 240px;
-    background-color: pink;
-    float: right;
-}
