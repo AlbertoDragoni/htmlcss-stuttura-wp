@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
 .container {
     width: 80vw;
     margin: 0 auto;
@@ -14,7 +19,7 @@ header {
 }
 .row {
     height: 500px;
-    background-color: lightgrey;
+    background-color: white;
 }
 aside {
     height: 100%;
@@ -24,6 +29,16 @@ aside {
 }
 main {
     height: 100%;
-    width: 75%;
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+main .content {
+    height: 100%;
     background-color: purple;
+}
+footer {
+    height: 100px;
+    margin-top: 10px;
+    background-color: powderblue;
 }
